@@ -1,0 +1,159 @@
+---
+title: |
+  <div style="text-align:center;">
+    <img src="logo.png" style="width:200px;"><br><br>
+    <span style="font-size:28px; font-weight:bold;">
+      Frutas deshidratadas e infusiones
+    </span>
+  </div>
+lang: es
+editor: visual
+#embed-resources: true
+number-sections: true
+
+format:
+  html: {}
+---
+
+```{=html}
+<style>
+.carousel-container {
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  scroll-behavior: smooth;
+}
+
+.card {
+  flex: 0 0 250px;
+}
+
+button {
+  position: absolute;
+  top: 40%;
+  background: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.left { left: 0; }
+.right { right: 0; }
+</style>
+```
+
+::::::::::: carousel-container
+<button class="left" onclick="scrollLeft()">
+
+◀
+
+</button>
+
+<button class="right" onclick="scrollRight()">
+
+▶
+
+</button>
+
+:::::::::: {#carrusel .carousel}
+::: card
+<img src="portada01.jpg"/>
+:::
+
+::: card
+<img src="portada02.jpg"/>
+:::
+
+::: card
+<img src="portada03.jpg"/>
+:::
+
+::: card
+<img src="portada04.jpg"/>
+:::
+
+::: card
+<img src="portada05.jpg"/>
+:::
+
+::: card
+<img src="portada06.jpg"/>
+:::
+
+::: card
+<img src="portada07.jpg"/>
+:::
+::::::::::
+:::::::::::
+
+```{=html}
+<script>
+function scrollLeft() {
+  document.getElementById("carrusel").scrollBy({left: -300, behavior: 'smooth'});
+}
+
+function scrollRight() {
+  document.getElementById("carrusel").scrollBy({left: 300, behavior: 'smooth'});
+}
+</script>
+```
+
+::: panel-tabset
+## Fruta deshidratada
+
+<figure style="text-align:center;">
+
+<img src="fresa.JPG" width="300"/>
+
+<figcaption>Fresa deshidratada</figcaption>
+
+</figure>
+
+<figure style="text-align:center;">
+
+<img src="guanabana.JPG" width="300"/>
+
+<figcaption>Guanabana deshidratada</figcaption>
+
+</figure>
+
+<figure style="text-align:center;">
+
+<img src="pitaya.JPG" width="300"/>
+
+<figcaption>Pitaya deshidratada</figcaption>
+
+</figure>
+
+<figure style="text-align:center;">
+
+<img src="mango.JPG" width="300"/>
+
+<figcaption>Mango deshidratada</figcaption>
+
+</figure>
+
+## Infusiones
+
+<img src="foto4.jpeg" width="300"/>
+
+## Presentaciones
+
+<img src="foto3.jpeg" width="300"/>
+
+Disponibles tres presentaciones: caja blanca, caja marrón natural y bolsa reutilizable. Esta última permite armar el contenido de forma libre con los productos de tu preferencia, y su tamaño se ajusta según el contenido. Las presentaciones en caja tienen tamaño fijo. Domicilios no incluidos.
+
+Fruta deshidrata x 30g en bolsa 8500 COP Fruta deshidrata x 50g en frasco de vidrio 15000 COP Caja blanca con ventana, con cuatro envases de vidrio x 50g 65000 COP Caja marrón natural, con dos envases de vidrio x 50g 35000 COP Bolsa reutilizable 2000 COP
+
+<figure style="text-align:center;">
+
+<img src="foto1.jpeg" style="width:300px; border-radius:10px;"/>
+
+<figcaption>Frutas frescas y naturales</figcaption>
+
+</figure>
+:::
