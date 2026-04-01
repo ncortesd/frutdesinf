@@ -6,6 +6,7 @@ title: |
       Frutas deshidratadas e infusiones
     </span>
   </div>
+subtitle: "Pedidos: +57 313 221 8332"
 lang: es
 editor: visual
 #embed-resources: true
@@ -16,6 +17,12 @@ format:
 ---
 
 ```{=html}
+<style>
+.quarto-title-block .subtitle {
+  text-align: center;
+}
+</style>
+
 <style>
 .carousel-container {
   position: relative;
@@ -30,6 +37,13 @@ format:
 
 .card {
   flex: 0 0 250px;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;        
+  object-fit: cover;   
+  border-radius: 10px;  
 }
 
 button {
@@ -102,58 +116,182 @@ function scrollRight() {
 </script>
 ```
 
-::: panel-tabset
+::: {.panel-tabset}
 ## Fruta deshidratada
 
-<figure style="text-align:center;">
-
-<img src="fresa.JPG" width="300"/>
-
-<figcaption>Fresa deshidratada</figcaption>
-
-</figure>
+<figure>
 
 <figure style="text-align:center;">
 
-<img src="guanabana.JPG" width="300"/>
+<img src="pfrudes_guanabana.JPG" width="300"/>
 
 <figcaption>Guanabana deshidratada</figcaption>
 
 </figure>
 
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+<figure>
+
 <figure style="text-align:center;">
 
-<img src="pitaya.JPG" width="300"/>
+<img src="pfrudes_feijoa.PNG" width="300&quot;/"/>
+
+<figcaption>Feijoa deshidratada</figcaption>
+
+</figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+<figure>
+
+<figure style="text-align:center;">
+
+<img src="pfrudes_fresa.PNG" width="300"/>
+
+<figcaption>Fresa deshidratada</figcaption>
+
+</figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+<figure>
+
+<figure style="text-align:center;">
+
+<img src="pfrudes_pitaya.JPG" width="300"/>
 
 <figcaption>Pitaya deshidratada</figcaption>
 
 </figure>
 
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+<figure>
+
 <figure style="text-align:center;">
 
-<img src="mango.JPG" width="300"/>
+<img src="pfrudes_mango.JPG" width="300"/>
 
-<figcaption>Mango deshidratada</figcaption>
+<figcaption>Mango deshidratado</figcaption>
 
 </figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+<figure>
+
+<figure style="text-align:center;">
+
+<img src="pfrudes_manzana.JPG" width="300"/>
+
+<figcaption>Manzana deshidratada</figcaption>
+
+</figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
 
 ## Infusiones
 
-<img src="foto4.jpeg" width="300"/>
-
-## Presentaciones
-
-<img src="foto3.jpeg" width="300"/>
-
-Disponibles tres presentaciones: caja blanca, caja marrón natural y bolsa reutilizable. Esta última permite armar el contenido de forma libre con los productos de tu preferencia, y su tamaño se ajusta según el contenido. Las presentaciones en caja tienen tamaño fijo. Domicilios no incluidos.
-
-Fruta deshidrata x 30g en bolsa 8500 COP Fruta deshidrata x 50g en frasco de vidrio 15000 COP Caja blanca con ventana, con cuatro envases de vidrio x 50g 65000 COP Caja marrón natural, con dos envases de vidrio x 50g 35000 COP Bolsa reutilizable 2000 COP
+<figure>
 
 <figure style="text-align:center;">
 
-<img src="foto1.jpeg" style="width:300px; border-radius:10px;"/>
+<img src="inf_foto01.PNG" width="300"/>
 
-<figcaption>Frutas frescas y naturales</figcaption>
+<figcaption>Mezcla para infusión</figcaption>
 
 </figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+<figure>
+
+<figure style="text-align:center;">
+
+<img src="pres_foto09.PNG" width="300"/>
+
+<figcaption>Infusión x 2.5g en filtro individual con mensaje personalizado</figcaption>
+
+</figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+## Presentaciones
+
+Estan disponibles las siguientes presentaciones:
+
+<!-- Fruta deshidratada o mezclas para infusión x 30g en bolsa -->
+
+<figure style="text-align:center;">
+
+<img src="pres_foto03.JPG" width="300"/>
+
+<figcaption>Fruta deshidratada o mezclas para infusión x 30g en bolsa plástica<br> <strong>\$8.500 COP</strong></figcaption>
+
+</figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+<!-- Fruta deshidratada o mezclas para infusión x 50g en frasco -->
+
+<figure style="text-align:center;">
+
+<img src="pres_foto08.JPEG" width="200"/>
+
+<figcaption>Fruta deshidratada o mezclas para infusión x 50g en frasco de vidrio <br> <strong>15.000 COP</strong></figcaption>
+
+</figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+<!-- Infusión x 2.5g en filtro individual con mensaje personalizado -->
+
+<figure style="text-align:center;">
+
+<img src="pres_foto09.JPEG" width="300"/>
+
+<figcaption>Infusión x 2.5g en filtro individual con mensaje personalizado <br> 10 unidades <br> <strong>25.000 COP</strong></figcaption>
+
+</figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+<!-- Caja marron -->
+
+<figure style="text-align:center;">
+
+<img src="pres_foto01.JPEG" width="400"/>
+
+<figcaption>Caja marrón natural con 2 envases de vidrio (50 g c/u) de fruta deshidratada o mezclas para infusión <br> <strong>35000 COP</strong></figcaption>
+
+</figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+<!-- Caja blanca con ventana -->
+
+<figure style="text-align:center;">
+
+<img src="pres_foto07.JPEG" width="400"/>
+
+<figcaption>Caja blanca con ventana con 4 envases de vidrio (50 g c/u) de fruta deshidratada o mezcla para infusión <br> <strong>65.000 COP</strong></figcaption>
+
+</figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+<!-- Bolsa reutilizable -->
+
+<figure style="text-align:center;">
+
+<img src="pres_foto06.PNG" width="300"/>
+
+<figcaption>Bolsa reutilizable para combinar libremente los productos mencionados; tamaño ajustable según la selección. <br> <strong> Costo adicional: 3.000 COP</strong></figcaption>
+
+</figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
 :::
+
