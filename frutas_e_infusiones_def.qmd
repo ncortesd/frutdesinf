@@ -10,7 +10,7 @@ subtitle: "Pedidos: +57 313 221 8332"
 lang: es
 editor: visual
 #embed-resources: true
-number-sections: true
+number-sections: false
 
 format:
   html: {}
@@ -62,7 +62,7 @@ button {
 
 Ofrecemos una selección de frutas deshidratadas e infusiones elaboradas de forma artesanal, sin conservantes ni aditivos artificiales. Cada producto conserva su sabor y aroma, brindando una alternativa práctica, saludable y deliciosa para cada día.
 
-::::::::::: carousel-container
+:::::::::: carousel-container
 <button class="left" onclick="scrollLeft()">
 
 ◀
@@ -75,17 +75,13 @@ Ofrecemos una selección de frutas deshidratadas e infusiones elaboradas de form
 
 </button>
 
-:::::::::: {#carrusel .carousel}
+::::::::: {#carrusel .carousel}
 ::: card
 <img src="portada01.jpg"/>
 :::
 
 ::: card
 <img src="portada02.jpg"/>
-:::
-
-::: card
-<img src="portada03.jpg"/>
 :::
 
 ::: card
@@ -103,8 +99,8 @@ Ofrecemos una selección de frutas deshidratadas e infusiones elaboradas de form
 ::: card
 <img src="portada07.jpg"/>
 :::
+:::::::::
 ::::::::::
-:::::::::::
 
 ```{=html}
 <script>
@@ -118,11 +114,11 @@ function scrollRight() {
 </script>
 ```
 
-::::: panel-tabset
+:::::::::: panel-tabset
 ## Fruta deshidratada
 
 ::: {.callout appearance="simple" icon="false"}
-**Nota:** Consultar disponibilidad antes de realizar el pedido.
+**Nota:** Ver presentaciones al final de la página.
 :::
 
 <figure>
@@ -197,10 +193,46 @@ function scrollRight() {
 
 <hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
 
-## Infusiones
+### Presentaciones
+
 ::: {.callout appearance="simple" icon="false"}
-**Nota:** Consultar disponibilidad antes de realizar el pedido.
+**Notas:**  • La forma del envase de vidrio puede variar.\
+• Domicilios no incluidos.\
+• Consultar disponibilidad antes de realizar el pedido.
 :::
+
+Estan disponibles las siguientes presentaciones:
+
+<!-- Fruta deshidratada x 30g en bolsa -->
+
+<figure style="text-align:center;">
+
+<img src="pres_foto03.JPG" width="300"/>
+
+<figcaption>Fruta deshidratada x 30g en bolsa plástica<br> <strong>\$8.500 COP</strong></figcaption>
+
+</figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+<!-- Fruta deshidratada x 50g en frasco -->
+
+<figure style="text-align:center;">
+
+<img src="pres_foto08.JPEG" width="200"/>
+
+<figcaption>Fruta deshidratada x 50g en frasco de vidrio <br> <strong>15.000 COP</strong></figcaption>
+
+</figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+## Infusiones
+
+::: {.callout appearance="simple" icon="false"}
+**Nota:** Ver presentaciones al final de la página.
+:::
+
 <figure>
 
 <figure style="text-align:center;">
@@ -225,9 +257,45 @@ function scrollRight() {
 
 <hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
 
-## Otros productos
+### Presentaciones
+
 ::: {.callout appearance="simple" icon="false"}
-**Nota:** Consultar disponibilidad antes de realizar el pedido.
+**Notas:**\
+• La forma del envase de vidrio puede variar.\
+• Domicilios no incluidos.\
+• Consultar disponibilidad antes de realizar el pedido.
+:::
+
+Estan disponibles las siguientes presentaciones:
+
+<!-- Mezclas para infusión x 50g en frasco de vidrio -->
+
+<figure style="text-align:center;">
+
+<img src="pres_foto08.JPEG" width="200"/>
+
+<figcaption>Mezcla para infusión x 50g en frasco de vidrio <br> <strong>15.000 COP</strong></figcaption>
+
+</figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+<!-- Infusión x 2.5g en filtro individual con mensaje personalizado -->
+
+<figure style="text-align:center;">
+
+<img src="pres_foto09.JPEG" width="300"/>
+
+<figcaption>Infusión x 2.5g en filtro individual con mensaje personalizado <br> 10 unidades <br> <strong>25.000 COP</strong></figcaption>
+
+</figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+## Otros productos
+
+::: {.callout appearance="simple" icon="false"}
+**Nota:** Ver presentaciones al final de la página.
 :::
 
 <!-- Tomates secos -->
@@ -254,55 +322,21 @@ function scrollRight() {
 
 <hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
 
-## Presentaciones
+### Presentaciones
 
 ::: {.callout appearance="simple" icon="false"}
-**Notas:** La forma del envase de vidrio puede variar. Domicilios no incluidos.Consultar disponibilidad antes de realizar el pedido.
+**Notas:**   • La forma del envase de vidrio puede variar.\
+• Domicilios no incluidos.\
+• Consultar disponibilidad antes de realizar el pedido.
 :::
 
 Estan disponibles las siguientes presentaciones:
-
-<!-- Fruta deshidratada o mezclas para infusión x 30g en bolsa -->
-
-<figure style="text-align:center;">
-
-<img src="pres_foto03.JPG" width="300"/>
-
-<figcaption>Fruta deshidratada o mezclas para infusión x 30g en bolsa plástica<br> <strong>\$8.500 COP</strong></figcaption>
-
-</figure>
-
-<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
-
-<!-- Fruta deshidratada o mezclas para infusión x 50g en frasco -->
-
-<figure style="text-align:center;">
-
-<img src="pres_foto08.JPEG" width="200"/>
-
-<figcaption>Fruta deshidratada o mezclas para infusión x 50g en frasco de vidrio <br> <strong>15.000 COP</strong></figcaption>
-
-</figure>
-
-<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
-
-<!-- Infusión x 2.5g en filtro individual con mensaje personalizado -->
-
-<figure style="text-align:center;">
-
-<img src="pres_foto09.JPEG" width="300"/>
-
-<figcaption>Infusión x 2.5g en filtro individual con mensaje personalizado <br> 10 unidades <br> <strong>25.000 COP</strong></figcaption>
-
-</figure>
-
-<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
 
 <!-- Tomates secos -->
 
 <figure style="text-align:center;">
 
-<img src="otros_tomateseco.PNG" width="250"/>
+<img src="otros_tomateseco.PNG" width="300"/>
 
 <figcaption>Tomates secos 130g <br> <strong>20.000 COP</strong></figcaption>
 
@@ -321,6 +355,14 @@ Estan disponibles las siguientes presentaciones:
 </figure>
 
 <hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+## Cajas para regalo
+
+::: {.callout appearance="simple" icon="false"}
+**Notas:**   • La forma del envase de vidrio puede variar.\
+• Domicilios no incluidos.\
+• Consultar disponibilidad antes de realizar el pedido.
+:::
 
 <!-- Caja marron -->
 
@@ -367,4 +409,10 @@ Estan disponibles las siguientes presentaciones:
 :::
 
 :::
+
 :::::
+
+::::::::::
+
+::::::::::
+::::::::::
