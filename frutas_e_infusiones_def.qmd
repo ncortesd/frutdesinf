@@ -127,9 +127,9 @@ function scrollRight() {
 
 <figure style="text-align:center;">
 
-<img src="pfrudes_guanabana.JPG" width="300"/>
-
 <figcaption>Guanabana deshidratada</figcaption>
+
+<img src="pfrudes_guanabana.JPG" width="300"/>
 
 </figure>
 
@@ -141,9 +141,9 @@ function scrollRight() {
 
 <figure style="text-align:center;">
 
-<img src="pfrudes_feijoa.PNG" width="300&quot;/"/>
-
 <figcaption>Feijoa deshidratada</figcaption>
+
+<img src="pfrudes_feijoa.PNG" width="300&quot;/"/>
 
 </figure>
 
@@ -155,51 +155,51 @@ function scrollRight() {
 
 <figure style="text-align:center;">
 
-<img src="pfrudes_nispero.JPG" width="300&quot;/"/>
+<figcaption>Nispero deshidratado</figcaption>
 
-<figcaption>Feijoa deshidratada</figcaption>
+<img src="pfrudes_nispero.JPG" width="300&quot;/"/>
 
 </figure>
 
 <hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
 
-<!-- Guanabana -->
+<!-- Fresa -->
 
 <figure>
 
 <figure style="text-align:center;">
-
-<img src="pfrudes_fresa.PNG" width="300"/>
 
 <figcaption>Fresa deshidratada</figcaption>
 
+<img src="pfrudes_fresa.PNG" width="300"/>
+
 </figure>
 
 <hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
 
-<!-- Guanabana -->
+<!-- Pitaya -->
 
 <figure>
 
 <figure style="text-align:center;">
-
-<img src="pfrudes_pitaya.JPG" width="300"/>
 
 <figcaption>Pitaya deshidratada</figcaption>
 
+<img src="pfrudes_pitaya.JPG" width="300"/>
+
 </figure>
 
 <hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
 
-<!-- Guanabana -->
+<!-- Mango -->
 
 <figure>
 
 <figure style="text-align:center;">
 
-<img src="pfrudes_mango.JPG" width="300"/>
-
 <figcaption>Mango deshidratado</figcaption>
+
+<img src="pfrudes_mango.JPG" width="300"/>
 
 </figure>
 
@@ -211,21 +211,15 @@ function scrollRight() {
 
 <figure style="text-align:center;">
 
-<img src="pfrudes_manzana.JPG" width="300"/>
-
 <figcaption>Manzana deshidratada</figcaption>
+
+<img src="pfrudes_manzana.JPG" width="300"/>
 
 </figure>
 
 <hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
 
 ### Presentaciones
-
-::: {.callout appearance="simple" icon="false"}
-**Notas:**  • La forma del envase de vidrio puede variar.\
-• Domicilios no incluidos.\
-• Consultar disponibilidad antes de realizar el pedido.
-:::
 
 Estan disponibles las siguientes presentaciones:
 
@@ -265,9 +259,9 @@ Estan disponibles las siguientes presentaciones:
 
 <figure style="text-align:center;">
 
-<img src="inf_foto01.PNG" width="300"/>
-
 <figcaption>Mezcla para infusión <br> Contiene manzana deshidratada, flor de jamaica y canela.</figcaption>
+
+<img src="inf_foto01.PNG" width="300"/>
 
 </figure>
 
@@ -279,9 +273,9 @@ Estan disponibles las siguientes presentaciones:
 
 <figure style="text-align:center;">
 
-<img src="inf_foto03.PNG" width="300"/>
+<figcaption>Mezcla para infusión <br> Contiene durazno deshidratado, manzanilla y canela.</figcaption>
 
-<figcaption>Mezcla para infusión <br> Contiene durazno deshidratada, manzanilla y canela.</figcaption>
+<img src="inf_foto03.JPG" width="300"/>
 
 </figure>
 
@@ -293,9 +287,9 @@ Estan disponibles las siguientes presentaciones:
 
 <figure style="text-align:center;">
 
-<img src="pres_foto09.PNG" width="300"/>
-
 <figcaption>Infusión x 2.5g en filtro individual con mensaje personalizado</figcaption>
+
+<img src="pres_foto09.PNG" width="300"/>
 
 </figure>
 
@@ -303,15 +297,11 @@ Estan disponibles las siguientes presentaciones:
 
 ### Presentaciones
 
-::: {.callout appearance="simple" icon="false"}
-**Notas:**   • La forma del envase de vidrio puede variar.\
-• Domicilios no incluidos.\
-• Consultar disponibilidad antes de realizar el pedido.
-:::
-
 Estan disponibles las siguientes presentaciones:
 
 <!-- Mezclas para infusión x 100g en frasco de vidrio -->
+
+<figure>
 
 <figure style="text-align:center;">
 
@@ -325,11 +315,13 @@ Estan disponibles las siguientes presentaciones:
 
 <!-- Infusión x 2.5g en filtro individual con mensaje personalizado -->
 
+<figure>
+
 <figure style="text-align:center;">
 
-<img src="pres_foto09.JPEG" width="300"/>
+<img src="pres_foto14.PNG" width="500"/>
 
-<figcaption>Infusión x 2.5g en filtro individual con mensaje personalizado <br> 10 unidades <br> <strong>25.000 COP</strong></figcaption>
+<figcaption>Infusión x 2.5g en filtro individual con mensaje personalizado <br> 6 unidades <br> <strong>15.000 COP</strong></figcaption>
 
 </figure>
 
@@ -345,9 +337,9 @@ Estan disponibles las siguientes presentaciones:
 
 <figure style="text-align:center;">
 
-<img src="otros_ts_tomate.PNG" width="300"/>
-
 <figcaption>Tomates secos en aceite vegetal <br> Contiene tomates frescos, sal y aceite vegetal.</figcaption>
+
+<img src="otros_ts_tomate.PNG" width="300"/>
 
 </figure>
 
@@ -357,21 +349,15 @@ Estan disponibles las siguientes presentaciones:
 
 <figure style="text-align:center;">
 
-<img src="otros_guiso.PNG" width="400"/>
-
 <figcaption>Guiso de tomate <br> Contiene\*: Tomates frescos, aceite vegetal, sal y panela. <br> \* Previa solicitud, se puede adicionar ají o sustituir la panela por edulcorante.</figcaption>
+
+<img src="otros_guiso.PNG" width="400"/>
 
 </figure>
 
 <hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
 
 ### Presentaciones
-
-::: {.callout appearance="simple" icon="false"}
-**Notas:**   • La forma del envase de vidrio puede variar.\
-• Domicilios no incluidos.\
-• Consultar disponibilidad antes de realizar el pedido.
-:::
 
 Estan disponibles las siguientes presentaciones:
 
@@ -407,6 +393,18 @@ Estan disponibles las siguientes presentaciones:
 • Consultar disponibilidad antes de realizar el pedido.
 :::
 
+<!-- Guacal -->
+
+<figure style="text-align:center;">
+
+<img src="pres_foto13.PNG" width="400"/>
+
+<figcaption> Guacal de madera con 1 envase de vidrio (50 g) de fruta deshidratada o mezclas para infusión <br> <strong>20000 COP</strong></figcaption>
+
+</figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
 <!-- Caja marron -->
 
 <figure style="text-align:center;">
@@ -414,6 +412,18 @@ Estan disponibles las siguientes presentaciones:
 <img src="pres_foto01.JPEG" width="400"/>
 
 <figcaption>Caja marrón natural con 2 envases de vidrio (50 g c/u) de fruta deshidratada o mezclas para infusión <br> <strong>35000 COP</strong></figcaption>
+
+</figure>
+
+<hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
+
+<!-- Bandeja madera -->
+
+<figure style="text-align:center;">
+
+<img src="pres_foto12.PNG" width="400"/>
+
+<figcaption> Bandeja de madera con 2 envases de vidrio (50 g c/u) de fruta deshidratada o mezclas para infusión <br> <strong>35000 COP</strong></figcaption>
 
 </figure>
 
@@ -443,23 +453,27 @@ Estan disponibles las siguientes presentaciones:
 
 <hr style="width:60%; margin: 20px auto; border: 0.5px solid #ddd;">
 
+## Lista de precios
+
+::: {.callout appearance="simple" icon="false"}
+**Notas:**   
+• La forma del envase de vidrio puede variar.\
+• Domicilios no incluidos.\
+• Consultar disponibilidad antes de realizar el pedido.
 :::
 
-:::
+| Producto | Presentación | Precio |
+|-----------|-----------|-----------:|
+| Fruta deshidratada | Bolsa plástica (30 g) | $8.500 COP |
+| Fruta deshidratada | Frasco de vidrio (50 g) | $15.000 COP |
+| Mezcla para infusión | Frasco de vidrio (100 g) | $28.000 COP |
+| Mezcla para infusión con mensaje personalizado | 6 bolsitas individuales (2,5 g c/u) | $15.000 COP |
+| Tomates secos | 130 g | $20.000 COP |
+| Guiso de tomate | 200 g | $9.000 COP |
+| Guacal de madera | 1 envase de vidrio (50 g) de fruta deshidratada o mezcla para infusión | $20.000 COP |
+| Caja marrón natural | 2 envases de vidrio (50 g c/u) de fruta deshidratada o mezcla para infusión | $35.000 COP |
+| Bandeja de madera | 2 envases de vidrio (50 g c/u) de fruta deshidratada o mezcla para infusión | $35.000 COP |
+| Caja blanca con ventana | 4 envases de vidrio (50 g c/u) de fruta deshidratada o mezcla para infusión | $65.000 COP |
+| Bolsa reutilizable | Tamaño ajustable según la selección de productos | $3.000 COP* |
 
-:::
-
-:::
-
-:::
-
-:::::
-
-::::::::::
-
-::::::::::
-
-::::::::::
-
-::::::::::
-::::::::::
+\* Costo adicional al valor de los productos seleccionados.
